@@ -45,7 +45,7 @@ class App {
             process.env;
 
         mongoose.connect(
-            `mongodb://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_HOST}/${MONGO_DBNAME}`
+            `mongodb+srv://netphadmin:jPRbepX5PkdzDRU1@cluster0.y92x2gt.mongodb.net/netph-dev?retryWrites=true&w=majority`
         );
     }
 
